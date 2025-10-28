@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "Rock Salt", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: rgb(154, 18, 18);
+	background-color: rgb(247, 233, 214);
+}
+
+h3 {
+	font-family: "Rock Salt", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: rgb(154, 18, 18);
+	background-color:rgb(247, 233, 214);
+}
+
+#img1 {
+	height: 300px;
+	float: left;
+	border: 1px solid rgb(247, 233, 214);
+}
+
+#home {
+	font-family: "Sour Gummy", sans-serif;
+	font-style: normal;
+	font-size: medium;
+	color: rgb(0, 0, 0);
+	background-color: rgb(135, 103, 241);
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	border: 1px solid rgb(154, 18, 18);
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgb(247, 233, 214);
+}
+
+.sidebox {
+	margin-top: 0;
+	position: relative;
+	height: fit-content;
+}
+
+.boxtitle {
+	font-family: "Rock Salt", cursive;
+	font-style: normal;
+	font-size: medium;
+	color: rgb(154, 18, 18);
+	background-color: rgb(247, 233, 214);
+	text-align: center;
+	border-radius: 10px;
+	width: 200px;
+	height: 32px;
+	position: absolute;
+	left: 42px;
+	top: -72px;
+	/* width: auto;
+	height: 19px;
+	position: absolute;
+	left: 15px;
+	top: -8px; */
+}
+
+.navbar {
+	font-family: "Sour Gummy", sans-serif;
+	font-style: normal;
+	font-size: medium;
+	color: rgb(154, 18, 18);
+	background-color: rgb(247, 233, 214);
+	text-align: left;
+	padding: 10px;
+	border: 1px solid rgb(243, 190, 116);
+	border-radius: 10px;
+	height: 200px;
+	overflow-x: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	width: 200px;
+	height: 125px;
+	position: absolute;
+	left: 32px;
+	top: -8px;
+}
+
+.navList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
