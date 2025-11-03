@@ -14,11 +14,29 @@ h1 {
 	background-color: rgb(247, 233, 214);
 }
 
+h2 {
+	font-family: "Rock Salt", cursive;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	color: rgb(154, 18, 18);
+	background-color: rgb(247, 210, 159);
+}
+
 h3 {
 	font-family: "Rock Salt", cursive;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
+	color: rgb(154, 18, 18);
+	background-color:rgb(247, 233, 214);
+}
+
+h5 {
+	font-family: "Sour Gummy", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
 	color: rgb(154, 18, 18);
 	background-color:rgb(247, 233, 214);
 }
@@ -34,16 +52,15 @@ h3 {
 	font-style: normal;
 	font-size: medium;
 	color: rgb(0, 0, 0);
-	background-color: rgb(135, 103, 241);
+	background-color: rgb(247, 233, 214);
 	text-align: center;
-	width: 700px;
+	width: 600px;
 	margin: 0 auto;
 	border: 1px solid rgb(154, 18, 18);
 	border-radius: 5px;
 	padding: 10px;
 	background-color: rgb(247, 233, 214);
 }
-
 
 .content {
 	width: 1100px;
@@ -85,7 +102,7 @@ h3 {
 	padding: 10px;
 	border: 1px solid rgb(243, 190, 116);
 	border-radius: 10px;
-	height: 200px;
+	height: 250px;
 	overflow-x: scroll;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -98,8 +115,27 @@ h3 {
 	position: relative;
 }
 
-.navList {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.navlist {
+	list-style-type: "⌯⌲";
+	margin: auto;
+	padding: auto;
+}
+
+#quickfacts {
+	display: flex;
+	width: 560px;
+	text-align: left;
+	flex-wrap: wrap;
+	padding: 10px;
+    padding-right: 0;
+}
+
+.facts {
+	text-align: left;
+	list-style-type: "✬";
+}
+
+#me {
+	text-align: left;
+	margin-bottom: auto;
 }
