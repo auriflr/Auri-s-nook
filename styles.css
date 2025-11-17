@@ -1,141 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
-	background-color: black;
+	background-image: url(pics/dvd.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 h1 {
-	font-family: "Rock Salt", cursive;
+	font-family: "Silkscreen", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
-	color: rgb(154, 18, 18);
-	background-color: rgb(247, 233, 214);
+	color: rgb(54, 81, 213);
 }
 
 h2 {
-	font-family: "Rock Salt", cursive;
+	font-family: "Silkscreen", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
-	color: rgb(154, 18, 18);
-	background-color: rgb(247, 210, 159);
-}
-
-h3 {
-	font-family: "Rock Salt", cursive;
-	font-weight: 400;
-	font-style: normal;
-	text-align: center;
-	color: rgb(154, 18, 18);
-	background-color:rgb(247, 233, 214);
-}
-
-h4 {
-	font-family: "Sour Gummy", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	text-align: left;
-	color: rgb(154, 18, 18);
-	background-color: rgb(247, 233, 214);
+	color: rgb(54, 81, 213);
 }
 
 #img1 {
 	height: 300px;
 	float: left;
-	border: 1px solid rgb(247, 233, 214);
+	position: relative;
+	right: 12px;
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 0x;
 }
 
 #home {
-	font-family: "Sour Gummy", sans-serif;
+	font-family: "VT323", monospace;
 	font-style: normal;
 	font-size: medium;
-	color: rgb(0, 0, 0);
-	background-color: rgb(247, 233, 214);
+	color: rgb(249, 249, 249);
 	text-align: center;
 	width: 600px;
 	margin: 0 auto;
-	border: 1px solid rgb(154, 18, 18);
 	border-radius: 5px;
 	padding: 10px;
-	background-color: rgb(247, 233, 214);
-}
-
-.content {
-	width: 1100px;
-  	margin: 0 auto;
-  	display: flex;
-  	padding-left: 10px;
-  	padding-right: 10px;
-  	border-radius: 10px;
-}
-
-.sidebox {
-	margin-top: 0;
-	position: relative;
-	height: fit-content;
-}
-
-.boxtitle {
-	font-family: "Rock Salt", cursive;
-	font-style: normal;
-	font-size: medium;
-	color: rgb(154, 18, 18);
-	background-color: rgb(247, 233, 214);
-	text-align: center;
-	border-radius: 10px;
-	width: 200px;
-	height: 32px;
-	position: absolute;
-	left: 42px;
-	top: -72px;
-}
-
-.navbar {
-	font-family: "Sour Gummy", sans-serif;
-	font-style: normal;
-	font-size: medium;
-	color: rgb(154, 18, 18);
-	background-color: rgb(247, 233, 214);
-	text-align: left;
-	padding: 10px;
-	border: 1px solid rgb(243, 190, 116);
-	border-radius: 10px;
-	height: 250px;
-	overflow-x: scroll;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
-	width: 200px;
-	height: 90px;
-	position: absolute;
-	left: 32px;
-	top: -8px;
-	display: inline-block;
-	position: relative;
-}
-
-.navlist {
-	list-style-type: "⌯⌲";
-	margin: auto;
-	padding: auto;
-}
-
-#quickfacts {
-	display: flex;
-	width: 560px;
-	text-align: left;
-	flex-wrap: wrap;
-	padding: 10px;
-    padding-right: 0;
-}
-
-.facts {
-	text-align: left;
-	list-style-type: "✬";
-}
-
-#me {
-	text-align: left;
-	margin-bottom: auto;
+	background-color: transparent;
 }
