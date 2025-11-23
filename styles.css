@@ -59,6 +59,11 @@ h1, h2 {
 	position: relative;
 	left: 15px;
 	top: 20px;
+	padding: 20px;
+}
+
+#star {
+	padding-left: 20px;
 }
 
 #heading2 {
