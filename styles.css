@@ -3,12 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
+@font-face {
+	font-family: pokemon;
+	src: url(font/pokemon.ttf);
+}
+
 body {
-	background-image: url(pics/try.png);
-/* make it a gif */
+	background-image: url(pics/stars.gif);
 	background-repeat: repeat;
 	background-size: auto;
 	background-attachment: fixed;
+	font-family: pokemon;
+	font-style: normal;
+	font-size: small;
+	color: rgb(249, 249, 249);
+	line-height: 140%;
 }
 
 h1, h2 {
@@ -16,17 +25,18 @@ h1, h2 {
 }
 
 .content {
-	font-family: "VT323", monospace;
-	font-style: normal;
-	font-size: medium;
-	color: rgb(249, 249, 249);
-	line-height: 120%;
+	/* font-family: "VT323", monospace; */
 	width: 1100px;
   	margin: 0 auto;
   	display: flex;
   	padding-left: 10px;
   	padding-right: 10px;
   	border-radius: 10px;
+}
+
+.nyan {
+	padding-right: 45px;
+	padding-left: 45px;
 }
 
 #img1 {
@@ -36,21 +46,21 @@ h1, h2 {
 	right: 11px;
 	top: 5px;
 	padding: 2px;
+	padding-bottom: 5px;
 	display: block;
 }
 
 #home {
-	font-family: "VT323", monospace;
-	font-style: normal;
-	font-size: medium;
+	/* font-family: "VT323", monospace; */
 	border: 1px solid white;
-	color: rgb(249, 249, 249);
 	text-align: center;
-	width: 600px;
+	width: 700px;
 	margin: 0 auto;
 	border-radius: 20px;
-	padding: 10px;
-	padding-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
 	border-bottom: 0px;
 	background-color: rgba(114, 139, 237, 0.3);
 }
@@ -58,23 +68,23 @@ h1, h2 {
 #heading1 {
 	position: relative;
 	left: 15px;
-	top: 20px;
+	top: 15px;
 	padding: 20px;
 }
 
-#star {
+.blue {
 	padding-left: 20px;
 }
 
 #heading2 {
 	position: relative;
-	left: 15px;
-	top: 45px;
+	left: 57px;
+	top: 35px;
 }
 
 #exheading {
 	position: relative;
-	left: 15px;
+	left: 70px;
 	top: 20px;
 }
 
@@ -98,12 +108,38 @@ h1, h2 {
 	padding: 5px;
 	border: 1px solid white;
 	border-radius: 20px;
-	color: white;
 	text-align: left;
 	background-color: rgba(209, 137, 233, 0.3);
-	height: 120px;
-	overflow-x: scroll;
+	height: 130px;
+	width: 200px;
+	overflow-x: none;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
   }
-  
+
+#facts-component {
+	position: absolute;
+	top: 800px;
+	left: 400px;
+}
+
+#aboutheading {
+	position: relative;
+	top: 40px;
+	left: 30px;
+}
+
+#facts {
+	border: 1px solid white;
+	text-align: center;
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	border-bottom: 0px;
+	background-color: rgba(114, 139, 237, 0.3);
+}  
